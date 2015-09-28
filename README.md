@@ -2,9 +2,7 @@
 
 Team Name: Horse
 
-Name 1: Sim Wei Xiong  
-
-Student ID: 1131121826
+Name 1: Sim Wei Xiong  Student ID: 1131121826
 Name 2: Wong Wei Ye    Student ID: 1131121730
 
 
@@ -38,14 +36,13 @@ User manual:
 For example:
 
 Terminal 1:
-./server portNumber
+./server 2000
 
 
 Terminal 2:
- ./client serverHostName portNumber
-
-
-
+ ./client 127.0.0.1 2000
+ 
+ *port number must be same and can't use the port below 1024*
 
 
 Group Members Task:
